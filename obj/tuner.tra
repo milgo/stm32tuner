@@ -1,0 +1,44 @@
+*** Creating Trace Output File '.\obj\tuner.tra' Ok.
+### Preparing for ADS-LD.
+### Creating ADS-LD Command Line
+### List of Objects: adding '".\obj\main.o"'
+### List of Objects: adding '".\obj\stm32f10x_it.o"'
+### List of Objects: adding '".\obj\lcd_lib.o"'
+### List of Objects: adding '".\obj\itoa.o"'
+### List of Objects: adding '".\obj\retarget.o"'
+### List of Objects: adding '".\obj\spline.o"'
+### List of Objects: adding '".\obj\system_stm32f10x.o"'
+### List of Objects: adding '".\obj\core_cm3.o"'
+### List of Objects: adding '".\obj\stm32f10x_rcc.o"'
+### List of Objects: adding '".\obj\stm32f10x_gpio.o"'
+### List of Objects: adding '".\obj\stm32f10x_dma.o"'
+### List of Objects: adding '".\obj\stm32f10x_adc.o"'
+### List of Objects: adding '".\obj\startup_stm32f10x_md.o"'
+### List of Objects: adding '".\obj\arm_cfft_radix4_init_q15.o"'
+### List of Objects: adding '".\obj\arm_cfft_radix4_q15.o"'
+### List of Objects: adding '".\obj\arm_dct4_init_q15.o"'
+### List of Objects: adding '".\obj\arm_dct4_q15.o"'
+### List of Objects: adding '".\obj\arm_rfft_init_q15.o"'
+### List of Objects: adding '".\obj\arm_rfft_q15.o"'
+### List of Objects: adding '".\obj\arm_common_tables.o"'
+### List of Objects: adding '".\obj\arm_cmplx_mult_cmplx_q15.o"'
+### List of Objects: adding '".\obj\arm_mult_q15.o"'
+### List of Objects: adding '".\obj\arm_shift_q15.o"'
+### List of Objects: adding '".\obj\arm_sin_f32.o"'
+### List of Objects: adding '".\obj\arm_float_to_q15.o"'
+### List of Objects: adding '".\obj\minunit.o"'
+### ADS-LD Command completed:
+--cpu Cortex-M3 ".\obj\main.o" ".\obj\stm32f10x_it.o" ".\obj\lcd_lib.o" ".\obj\itoa.o" ".\obj\retarget.o" ".\obj\spline.o" ".\obj\system_stm32f10x.o" ".\obj\core_cm3.o" ".\obj\stm32f10x_rcc.o" ".\obj\stm32f10x_gpio.o" ".\obj\stm32f10x_dma.o" ".\obj\stm32f10x_adc.o" ".\obj\startup_stm32f10x_md.o" ".\obj\arm_cfft_radix4_init_q15.o" ".\obj\arm_cfft_radix4_q15.o" ".\obj\arm_dct4_init_q15.o" ".\obj\arm_dct4_q15.o" ".\obj\arm_rfft_init_q15.o" ".\obj\arm_rfft_q15.o" ".\obj\arm_common_tables.o" ".\obj\arm_cmplx_mult_cmplx_q15.o" ".\obj\arm_mult_q15.o" ".\obj\arm_shift_q15.o" ".\obj\arm_sin_f32.o" ".\obj\arm_float_to_q15.o" ".\obj\minunit.o" --library_type=microlib --strict --scatter ".\obj\tuner.sct" 
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list ".\tuner.map" -o ".\obj\tuner.axf"### Preparing Environment (PrepEnvAds)
+### ADS-LD Output File: '.\obj\tuner.axf'
+### ADS-LD Command File: '.\obj\tuner.lnp'
+### Checking for dirty Components...
+### Creating CmdFile '.\obj\tuner.lnp', Handle=0x000007BC
+### Writing '.lnp' file
+### ADS-LD Command file '.\obj\tuner.lnp' is ready.
+### ADS-LD: About to start ADS-LD Thread.
+### ADS-LD: executed with 0 errors
+### Updating obj list
+### LDADS_file() completed.

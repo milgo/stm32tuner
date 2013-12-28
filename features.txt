@@ -1,0 +1,4 @@
+[X]sprawdzenie czy i jak szybko dzia³a FFT (tablica z przebiegiem sin i DSP lib)
+[x]czytanie danych z wejœcia analogowego
+[X]mo¿liwoœæ zmiany czêstotliwoœci próbkowania
+[x]komunikacja UART z komputerem

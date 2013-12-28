@@ -1,0 +1,31 @@
+Poskracaj nazwy funkcji!!!
+Pousuwaj nie potrzebne zmienne!!!
+Czy da sie wykryc ze korzystamy z symulatora? // zrob derektywe #define __SIMULATION
+
+GetdBFromAmp(adcMicVal);
+
+arm_rfft_q15(&rfft, input, output); 
+/* na wejsciu podaje funkcje sinus, wyjscie porownuje z oczekiwanym dla 3 czestotliwosci mix, avg, max */
+
+
+int FindPeakInteger(q15_t* p, uint16_t size)
+/* na wejsciu podaje wynik transformaty, wyjscie porownuje z oczekiwanym dla 3 przypadków mix, avg, max */
+
+
+double FindPeakDouble(q15_t* p, uint16_t size, uint16_t peak)
+/* na wejsciu podaje wynik transformaty, wyjscie porownuje z oczekiwanym dla 3 przypadków mix, avg, max */
+/* tutaj trzeba sprawdzic jak funkcja interpoluje wejscie, test trzeba napisac tak aby wynikiem byly liczby ze wszystkimi cyframi na pierwszej pozycji dziesietnej */
+/* generuje tablice input dla czestotliwosci robie transformate sprawdzam wynikowa czest z oczekiwana i tak 1024*10) */
+
+
+
+result = GetHzAndNoteIndex(peak, &hzIndex, &noteIndex);
+/* sprawdzamy dla kazdej wartosci wej z przedzialu (jakas tabela)*/
+
+char* itoa(int i);
+/* dla liczby wiekszej od int */
+/* dla liczby ujemnej */
+/* dla liczby przekraczajacej 20 znakow */
+
+uint32_t BinSearch(uint16_t t[], uint16_t val, uint16_t length)
+/* wyszukaj elementy skrajne, istniejacy i nieistniejacy */

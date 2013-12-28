@@ -1,0 +1,4 @@
+[X] Infinite loop when 65Hz (tab[-1] error)
+[ ] Frequancy test - starting at 32Hz now its 65Hz - but first interpolation
+[ ] Battery test - battery life & display value & alarm test
+[ ] Current consumption 2mA?

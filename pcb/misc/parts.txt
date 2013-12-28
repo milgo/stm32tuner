@@ -1,0 +1,27 @@
+[X] 100nF
+[X] 33pF
+[X] 10k
+[X] OPA344
+[X] 2,2k
+[X] 4,7uF
+[X] 12pF
+[X] 1uF
+[X] 10uF
+[X] LD1117S33TR
+[X] red led
+[X] 680R
+
+
+
+
+tme.eu
+[ ] ICL7660
+[ ] 22k - pot
+[ ] 1M - pot
+[ ] MIC
+[X] 8MHz
+
+
+Kamami.pl
+[ ] LCD 8x2
+[ ] STM32F101CBT6
